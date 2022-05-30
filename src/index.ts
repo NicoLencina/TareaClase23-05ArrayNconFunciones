@@ -14,7 +14,7 @@ function guardaArray(numerosIngresado: number[], dimensionArreglo: number) {
 //tambien podia haberlos guardado de atras para adelante pero como no especifica si quiere que los guarde normal o los guarde ivertido los invierto
 function invertir(arreglo: number[], dimensionArreglo: number) {
   let m = 0;
-  for (let x = dimensionArreglo - 1; x > -1; x--) {
+  for (let x = dimensionArreglo - 1; x >= 0; x--) {
     //arregl -1 ya que si agrego 6 va del 0,5 y x-1 porque salteo el valor 0
     arrayInvertido[m] = arreglo[x];
     m += 1;
